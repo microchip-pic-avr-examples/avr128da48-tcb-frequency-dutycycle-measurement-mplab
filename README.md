@@ -6,6 +6,12 @@ This example explains, how the Timer/Counter type B module of AVR128DA48 microco
 
 **Note:** ***This example could be generated with all the pin variants of AVR-DA family of microcontrollers.***
 
+## To see the Frequency and Duty cycle meaurement demo operation video, click on the below image.
+
+<p align="center">
+<br><a href="https://youtu.be/MuXe_AXPpC4" rel="nofollow"><img src="images/videofrontimage.png" alt="AVR DA" width="500"/></a>
+</p>
+
 ## Useful Links
 
 - [AVR128DA48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DA28 "AVR128DA48 Product Page")
@@ -37,14 +43,6 @@ In this example,
 </p>
 
 * RTC is used in a Periodic Interrupt Timer (PIT) mode to generate a periodic interrupt, which is used as a trigger for the USART module to transmit the data to the data visualizer terminal window.
-
-## To see the Frequency and Duty cycle meaurement demo operation video, click on the below image.
-
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=MuXe_AXPpC4
-" target="_blank"><img src="https://i.imgur.com/fQ9DhZV.jpg"
-alt="IMAGE ALT TEXT HERE" width="500" height="300" border="10" /></a>  
-
 
 # Hardware used
 
@@ -102,12 +100,12 @@ Open the terminal window in Standalone Data Visualizer tool to observe the measu
 * For example: Set the frequency to 100KHz and duty cycle to 70% in the signal generator and observe the measured frequency and duty cycle displayed on the terminal window.
 
 <p align="center">
-  <img width=auto height=auto src="images/WaveGenerator.jpg">
+  <img width=auto height=auto src="images/waveformgenerator.png">
   <br><strong>Fig 5 : Generate Pulse signal of frequency 100KHz and duty cycle 70%<br>
 </p>
 
 <p align="center">
-  <img width=auto height=auto src="images/OutputTerminal.jpg">
+  <img width=auto height=auto src="images/outputterminal.png">
   <br><strong>Fig 6 : Open Terminal window in Data visualizer<br>
 </p>
 
