@@ -6,7 +6,7 @@ This example explains, how the Timer/Counter type B module of AVR128DA48 microco
 
 **Note:** ***This example could be generated with all the pin variants of AVR-DA family of microcontrollers.***
 
-## To see the Frequency and Duty cycle meaurement demo operation video, click on the below image.
+### To see the Frequency and Duty cycle meaurement demo operation video, click on the below image.
 
 <p align="center">
 <br><a href="https://youtu.be/MuXe_AXPpC4" rel="nofollow"><img src="images/videofrontimage.png" alt="AVR DA" width="500"/></a>
@@ -22,10 +22,9 @@ This example explains, how the Timer/Counter type B module of AVR128DA48 microco
 
 # Demo Description
 
-***Fig 1: Block diagram view of the system used for Frequency and Duty cycle measurement.***
-
 <p align="center">
   <img width=auto height=auto src="images/blockdiagram.png">
+  <br><strong>Fig 1 : Block diagram view of the system used for Frequency and Duty cycle measurement<br>
 </p>
 
 In this example,
@@ -50,7 +49,7 @@ In this example,
 
 <p align="center">
   <img width=600 height=auto src="images/4.png">
-  <br><strong>Fig 3 : AVR128DA48 Curiosity Nano Evaluation Kit<br>
+  <br><strong>Fig 2 : AVR128DA48 Curiosity Nano Evaluation Kit<br>
 </p> 
 
 # Software used
@@ -59,7 +58,7 @@ In this example,
 - [XC8 Compiler v2.20](https://www.microchip.com/mplab/compilers "XC8 Compiler v2.20")
 - [MPLAB Code Configurator (MCC) v3.95.0](https://www.microchip.com/mplab/mplab-code-configurator "MPLAB Code Configurator (MCC) v3.95.0")
 - [AVR8bit Lib v2.3.0](https://www.microchip.com/mplab/mplab-code-configurator "AVR8bit Lib v2.3.0")
-- AVR-Dx DFP 1.1.40
+- AVR-Dx DFP 1.3.65
 - [Standalone Data Visualizer v2.20.674](https://www.microchip.com/mplab/avr-support/data-visualizer "Standalone Data Visualizer v2.20.674")
 
 **Note: For running the demo, the installed tool versions should be the same or later. This example is not tested with the previous versions.**
