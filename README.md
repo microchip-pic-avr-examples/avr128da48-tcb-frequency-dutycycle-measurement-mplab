@@ -33,7 +33,7 @@ In this example,
 * The frequency and duty cycle of the input pulse signal is calculated using period and pulse-width value and the formulae for calculation are:
 
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/FQN6hLk.jpg">
+  <img width=auto height=auto src="images/formula.png">
 </p>
 
 * RTC is used in a Periodic Interrupt Timer (PIT) mode to generate a periodic interrupt, which is used as a trigger for the USART module to transmit the data to the data visualizer terminal window.
@@ -46,26 +46,23 @@ In this example,
 alt="IMAGE ALT TEXT HERE" width="500" height="300" border="10" /></a>  
 
 
-# Hardware Tools
+# Hardware used
 
-## AVR128DA48 Curiosity nano board
-
-The Curiosity Nano boards features a variety of PIC® and AVR® microcontrollers, allowing rapid prototyping and easy evaluation of the design. They also offer full programming and debugging capabilities to support throughout the development process. 
-
-***Fig 2 : AVR128DA48 Curiosity Nano board***
+* AVR128DA48 Curiosity Nano Evaluation Kit [[Part Number:DM164151]](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM164151 "[Part Number:DM164151]")
 
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/wXBve17.jpg">
-</p>
+  <img width=600 height=auto src="images/4.png">
+  <br><strong>Fig 3 : AVR128DA48 Curiosity Nano Evaluation Kit<br>
+</p> 
 
-# Software Tools
+# Software used
 
-Microchip’s IDEs, compiler and graphical code generators are used throughout the application firmware development to provide an easy and hassle-free user experience. Following are the tools which are used for this demo application:
-* MPLAB X IDE (v 5.30)
-* XC8 Compiler (v 2.10)
-* MPLAB Code Configurator (MCC v 3.85.1)
-* Standalone Data Visualizer (v 2.20.674)
-
+- [MPLAB X IDE v5.40](https://www.microchip.com/mplab/mplab-x-ide "MPLAB X IDE v5.40")
+- [XC8 Compiler v2.20](https://www.microchip.com/mplab/compilers "XC8 Compiler v2.20")
+- [MPLAB Code Configurator (MCC) v3.95.0](https://www.microchip.com/mplab/mplab-code-configurator "MPLAB Code Configurator (MCC) v3.95.0")
+- [AVR8bit Lib v2.3.0](https://www.microchip.com/mplab/mplab-code-configurator "AVR8bit Lib v2.3.0")
+- AVR-Dx DFP 1.1.40
+- [Standalone Data Visualizer v2.20.674](https://www.microchip.com/mplab/avr-support/data-visualizer "Standalone Data Visualizer v2.20.674")
 
 **Note: For running the demo, the installed tool versions should be the same or later. This example is not tested with the previous versions.**
 
@@ -76,11 +73,10 @@ The following figure shows the hardware connection details.
 * Connect output pin of signal generator, which generates pulse signal, to pin PA6 of the  AVR128DA48 curiosity nano board.
 * Connect GND pin of the signal generator to GND pin of the AVR128DA48 curiosity nano board.
 
-***Fig 3 : Hardware setup***
-
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/PXeg1wQ.jpg">
-</p>
+  <img width=600 height=auto src="images/hardwaresetup.png">
+  <br><strong>Fig 3 : Hardware setup<br>
+</p> 
 
 ## Steps to open terminal window in Data Visualizer:
 
@@ -92,9 +88,9 @@ Open the terminal window in Standalone Data Visualizer tool to observe the measu
 5.	Check the **Open Terminal** option.
 6.	Click on the **Connect button**, then terminal window is opened.
 
-***Fig 4 : Open Terminal window in Data visualizer***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/VTxQJZC.jpg">
+  <img width=auto height=auto src="images/datavisualizer.png">
+  <br><strong>Fig 4 : Open Terminal window in Data visualizer<br>
 </p>
 
 # Demo Operation:
@@ -105,14 +101,14 @@ Open the terminal window in Standalone Data Visualizer tool to observe the measu
 * Set the desired frequency (between 500Hz to 200KHz) and duty cycle (5% to 95%), and check the data displayed on the terminal window.
 * For example: Set the frequency to 100KHz and duty cycle to 70% in the signal generator and observe the measured frequency and duty cycle displayed on the terminal window.
 
-***Fig 5 : Generate Pulse signal of frequency 100KHz and duty cycle 70%***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/YCit6iU.jpg">
+  <img width=auto height=auto src="images/WaveGenerator.jpg">
+  <br><strong>Fig 5 : Generate Pulse signal of frequency 100KHz and duty cycle 70%<br>
 </p>
 
-***Fig 6 : Open Terminal window in Data visualizer.***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/uRBeLAb.jpg">
+  <img width=auto height=auto src="images/OutputTerminal.jpg">
+  <br><strong>Fig 6 : Open Terminal window in Data visualizer<br>
 </p>
 
 # Summary : 
@@ -135,9 +131,9 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 7.	Enter **Project Name** and **File location.** (Press Finish).
 8.	Click on **MCC** symbol to configure peripherals as shown in Fig 7.
 
-***Fig 7 : MCC  symbol.***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/cVmdXl5.jpg">
+  <img width=auto height=auto src="images/mcc-icon.png">
+   <br><strong>Fig 7 : MCC symbol<br>
 </p>
 
 9.	Add **Timer/Counter type B2 (TCB2), USART 1, Event system, RTC** peripherals to the project .
@@ -145,18 +141,18 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 * To add peripherals to the project, select **TCB2, Event system, RTC, USART1** under **Device Resources** and by clicking on **(+)** button as shown in Fig 8. 
 * All selected peripherals should show up under Peripherals in Project Resources.
 
-***Fig 8 : Project Resources.***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/buHGKRB.jpg">
+  <img width=auto height=auto src="images/peripheralslist.png">
+   <br><strong>Fig 8 : Project Resources<br>
 </p>
 
 ## 10.	 System Module Configuration:
 * In **Resource Management** tab, Select **System Module (Under Project Resources)--->** Select **Easy Setup.**
 * The **Internal Oscillator** option is selected as a clock source and by default 4 MHz system clock is selected as Oscillator frequency. Select the **24 MHz system clock** option from the drop-down menu against the **Oscillator Frequency** Options field as shown in the Fig 9, which generates **24MHz** frequency as the main clock.
      
-***Fig 9 : System Module configuration.***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/bJ8NQoV.jpg">
+  <img width=auto height=auto src="images/systemclock.png">
+  <br><strong>Fig 9 : System Module configuration<br>
 </p>
 
 ## 11.	Event system Configuration :
@@ -164,16 +160,16 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 * In **Project Resources** tab, Select **EVSYS (under Peripherals)--->** Select **Easy Setup.**
 * Select **PORTA_PIN6** option from the drop-down menu against the **Event Generator** field as shown in Fig 10, which is connected to the **channel 0**.
     
-***Fig 10 : Event Generator configuration***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/3ifkMMF.jpg">
+  <img width=auto height=auto src="images/eventsystem1.png">
+  <br><strong>Fig 10 : Event Generator configuration<br>  
 </p>
 
 * Check the **TCB2CAPT** (timer) option against the **Event User** field as shown in Fig 11 ,which is connected to the **channel 0**. 
 
-***Fig 11 : Event User configuration***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/K5aPOQu.jpg">
+  <img width=auto height=auto src="images/eventsystem2.png">
+  <br><strong>Fig 11 : Event User configuration<br>  
 </p>
 
 ## 12.	Timer Configuration:
@@ -187,7 +183,8 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 
 ***Fig 12 : Timer B configuration***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/gFc8Q1I.jpg">
+  <img width=auto height=auto src="images/tcb2.png">
+  <br><strong>Fig 12 : Timer B configuration<br>  
 </p>
 
 ## 13.	USART Configuration:
@@ -196,9 +193,9 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 * Check the **Interrupt Driven** option  , which enables the  USART Transmit and Receive interrupts.
 * Set the **Baud Rate** to **115200**.
 
-***Fig 13 : USART 1 configuration***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/0F6BDCE.jpg">
+  <img width=auto height=auto src="images/usart1.png">
+  <br><strong>Fig 13 : USART 1 configuration<br>  
 </p>
 
 ## 14.	RTC configuration:
@@ -209,9 +206,9 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 * Select the period **RTC Clock Cycles 32768** option from the dropdown menu against the **Period Selection** field, which generates 1 sec delay.
 * Check the **Periodic Interrupt Enable** option to generate periodic interrupt after specified RTC clock cycles.
 
-***Fig 14 : RTC configuration***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/5tWgDXT.jpg">
+  <img width=auto height=auto src="images/rtc.png">
+  <br><strong>Fig 14 : RTC configuration<br>  
 </p>
 
 ## 15.	Global Interrupt Enable Configuration: 
@@ -219,17 +216,17 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 * In **Project Resources tab**, Select **Interrupt Manager** (under System)---> Select **Easy Setup**.
 * Check the **Global Interrupt Enable** option which enables global interrupt.
 
-***Fig 15 : Global Interrupt enable configuration***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/cqKX3SA.jpg">
+  <img width=auto height=auto src="images/globalinterrupt.png">
+  <br><strong>Fig 15 : Global Interrupt enable configuration <br>  
 </p>
 
 ## 16.	Pin Module Configuration:
 * Configure I/O pin **PA6** as input as shown in the Fig 16. The frequency and duty cycle of the input pulse signal to be measured is fed to the I/O pin PA6.
 
-***Fig 16 : Pin module configuration***
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/cvXRKZv.jpg">
+  <img width=auto height=auto src="images/pinmodule.png">
+  <br><strong>Fig 16 : Pin module configuration <br>  
 </p>
 
 
