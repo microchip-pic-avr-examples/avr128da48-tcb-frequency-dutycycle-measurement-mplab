@@ -1,22 +1,25 @@
 [![MCHP](https://cldup.com/U0qhLwBijF.png)](https://www.microchip.com)
+
 # Introduction  
 The Timer/Counter type B (TCB) module of the AVR-DA family of devices offers a variety of features and operation modes, from periodic interrupts to 8-bit PWM mode. The various operation modes of the TCB can be used in correlation with the event system. The capabilities of the 16-bit Timer/Counter type B includes single pulse generation and input capture on event with frequency and pulse width measurement of the digital signals. 
 This example explains, how the Timer/Counter type B module of AVR128DA48 microcontroller is used to measure the frequency and duty cycle of the pulse waveform.
 
-**Note:**
+**Note:** ***This example could be generated with all the pin variants of AVR-DA family of microcontrollers.***
 
-**1.	This example could be generated with all the pin variants of AVR-DA family of microcontrollers.**
+## Useful Links
 
-**2.	This example is also generated using Studio and is available on GitHub at this location.**
-https://github.com/microchip-pic-avr-examples/avr128da48-tcb-frequency-dutycycle-measurement-studio.git
- 
+- [AVR128DA48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DA28 "AVR128DA48 Product Page")
+- [AVR128DA48 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=avr128da48 "AVR128DA48 Code Examples on GitHub")
+- [AVR128DA48 Project Examples in START](https://start.atmel.com/#examples/AVR128DA48CuriosityNano "AVR128DA48 Project Examples in START")
+- [Frequency and Duty cycle measurement - Studio Example]( https://github.com/microchip-pic-avr-examples/avr128da48-tcb-frequency-dutycycle-measurement-studio.git "Frequency and Duty cycle measurement")
+
 
 # Demo Description
 
 ***Fig 1: Block diagram view of the system used for Frequency and Duty cycle measurement.***
 
 <p align="center">
-  <img width=auto height=auto src="https://i.imgur.com/QRyYNe9.jpg">
+  <img width=auto height=auto src="images/blockdiagram.png">
 </p>
 
 In this example,
