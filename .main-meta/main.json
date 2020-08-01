@@ -3,28 +3,28 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.mplabx.project.avr128da48-tcb-frequency-dutycycle-measurement-mplab",
+        "version": "1.0.1",
+        "displayName": "Frequency and Duty cycle measurement Studio example",
+        "projectName": "avr128da48-tcb-frequency-dutycycle-measurement-mplab",
+        "shortDescription": "This example demonstrates frequency and duty cycle measurement of a pulse signal using Timer/Counter type B (TCB), Event system and RTC (PIT) modules of AVR128DA48 microcontroller.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLABX",
+            "semverRange": ">=5.40"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "XC8 compiler",
+				"semverRange": "^2.20"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.3.65"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": "^3.95"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,26 +32,44 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "avr128da48",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
+            "MCC",
             [
-               "Peripherals", ""
+               "Peripherals", "TIMER"
             ],
             [
-               "Peripherals", ""
-            ]            			
+               "Peripherals", "PIT"
+            ],
+			[
+               "Peripherals", "USART"
+            ],
+			[
+               "Peripherals", "EVENT SYSTEM"
+            ],
+			[
+               "Peripherals", "INTERRUPT"
+            ],
+			[
+               "Peripherals", "GPIO"
+            ]	
         ],
         "peripherals": [
-            "",""
+            "TIMER","PIT","USART","EVENT SYSTEM", "INTERRUPT", "GPIO"
         ],
         "keywords": [
-            "",
-            ""			
+            "Frequency",
+            "Duty cycle",
+			"Pulse signal",
+			"AVR DA",
+			"AVR128DA48",
+			"Curiosity Nano Evaluation Kit",
+			"Interrupt",
+			"Waveform"
         ],
 		"additionalData": {
 			"longDescription": {
