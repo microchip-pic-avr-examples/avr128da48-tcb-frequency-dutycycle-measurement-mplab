@@ -58,7 +58,7 @@ In this example,
 - [XC8 Compiler v2.20](https://www.microchip.com/mplab/compilers "XC8 Compiler v2.20")
 - [MPLAB Code Configurator (MCC) v3.95.0](https://www.microchip.com/mplab/mplab-code-configurator "MPLAB Code Configurator (MCC) v3.95.0")
 - [AVR8bit Lib v2.3.0](https://www.microchip.com/mplab/mplab-code-configurator "AVR8bit Lib v2.3.0")
-- AVR-Dx DFP 1.3.65(https://packs.download.microchip.com/ "AVR-Dx DFP 1.3.65")
+- [AVR-Dx DFP 1.3.65](https://packs.download.microchip.com/ "AVR-Dx DFP 1.3.65")
 - [Standalone Data Visualizer v2.20.674](https://www.microchip.com/mplab/avr-support/data-visualizer "Standalone Data Visualizer v2.20.674")
 
 **Note: For running the demo, the installed tool versions should be the same or later. This example is not tested with the previous versions.**
