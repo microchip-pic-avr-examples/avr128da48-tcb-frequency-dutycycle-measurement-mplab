@@ -24,7 +24,7 @@ This example explains, how the Timer/Counter type B module of AVR128DA48 microco
 
 <p align="center">
   <img width=auto height=auto src="images/blockdiagram.png">
-  <br><strong>Fig 1 : Block diagram view of the system used for Frequency and Duty cycle measurement<br>
+  <br>Fig 1 : Block diagram view of the system used for Frequency and Duty cycle measurement<br>
 </p>
 
 In this example,
@@ -49,7 +49,7 @@ In this example,
 
 <p align="center">
   <img width=600 height=auto src="images/4.png">
-  <br><strong>Fig 2 : AVR128DA48 Curiosity Nano Evaluation Kit<br>
+  <br>Fig 2 : AVR128DA48 Curiosity Nano Evaluation Kit<br>
 </p> 
 
 # Software used
@@ -58,7 +58,7 @@ In this example,
 - [XC8 Compiler v2.20](https://www.microchip.com/mplab/compilers "XC8 Compiler v2.20")
 - [MPLAB Code Configurator (MCC) v3.95.0](https://www.microchip.com/mplab/mplab-code-configurator "MPLAB Code Configurator (MCC) v3.95.0")
 - [AVR8bit Lib v2.3.0](https://www.microchip.com/mplab/mplab-code-configurator "AVR8bit Lib v2.3.0")
-- [AVR-Dx DFP 1.3.65](https://packs.download.microchip.com/ "AVR-Dx DFP 1.3.65")
+- [AVR-Dx DFP 1.4.75](https://packs.download.microchip.com/ "AVR-Dx DFP 1.4.75")
 - [Standalone Data Visualizer v2.20.674](https://www.microchip.com/mplab/avr-support/data-visualizer "Standalone Data Visualizer v2.20.674")
 
 **Note: For running the demo, the installed tool versions should be the same or later. This example is not tested with the previous versions.**
@@ -72,7 +72,7 @@ The following figure shows the hardware connection details.
 
 <p align="center">
   <img width=600 height=auto src="images/hardwaresetup.png">
-  <br><strong>Fig 3 : Hardware setup<br>
+  <br>Fig 3 : Hardware setup<br>
 </p> 
 
 ## Steps to open terminal window in Data Visualizer:
@@ -87,7 +87,7 @@ Open the terminal window in Standalone Data Visualizer tool to observe the measu
 
 <p align="center">
   <img width=auto height=auto src="images/datavisualizer.png">
-  <br><strong>Fig 4 : Open Terminal window in Data visualizer<br>
+  <br>Fig 4 : Open Terminal window in Data visualizer<br>
 </p>
 
 # Demo Operation:
@@ -100,12 +100,12 @@ Open the terminal window in Standalone Data Visualizer tool to observe the measu
 
 <p align="center">
   <img width=auto height=auto src="images/waveformgenerator.png">
-  <br><strong>Fig 5 : Generate Pulse signal of frequency 100KHz and duty cycle 70%<br>
+  <br>Fig 5 : Generate Pulse signal of frequency 100KHz and duty cycle 70%<br>
 </p>
 
 <p align="center">
   <img width=auto height=auto src="images/outputterminal.png">
-  <br><strong>Fig 6 : Open Terminal window in Data visualizer<br>
+  <br>Fig 6 : Open Terminal window in Data visualizer<br>
 </p>
 
 # Summary : 
@@ -130,7 +130,7 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 
 <p align="center">
   <img width=auto height=auto src="images/mcc-icon.png">
-   <br><strong>Fig 7 : MCC symbol<br>
+   <br>Fig 7 : MCC symbol<br>
 </p>
 
 9.	Add **Timer/Counter type B2 (TCB2), USART 1, Event system, RTC** peripherals to the project .
@@ -140,7 +140,7 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 
 <p align="center">
   <img width=auto height=auto src="images/peripheralslist.png">
-   <br><strong>Fig 8 : Project Resources<br>
+   <br>Fig 8 : Project Resources<br>
 </p>
 
 ## 10.	 System Module Configuration:
@@ -149,7 +149,7 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
      
 <p align="center">
   <img width=auto height=auto src="images/systemclock.png">
-  <br><strong>Fig 9 : System Module configuration<br>
+  <br>Fig 9 : System Module configuration<br>
 </p>
 
 ## 11.	Event system Configuration :
@@ -159,14 +159,14 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
     
 <p align="center">
   <img width=auto height=auto src="images/eventsystem1.png">
-  <br><strong>Fig 10 : Event Generator configuration<br>  
+  <br>Fig 10 : Event Generator configuration<br>  
 </p>
 
 * Check the **TCB2CAPT** (timer) option against the **Event User** field as shown in Fig 11 ,which is connected to the **channel 0**. 
 
 <p align="center">
   <img width=auto height=auto src="images/eventsystem2.png">
-  <br><strong>Fig 11 : Event User configuration<br>  
+  <br>Fig 11 : Event User configuration<br>  
 </p>
 
 ## 12.	Timer Configuration:
@@ -180,7 +180,7 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 
 <p align="center">
   <img width=auto height=auto src="images/tcb2.png">
-  <br><strong>Fig 12 : Timer B configuration<br>  
+  <br>Fig 12 : Timer B configuration<br>  
 </p>
 
 ## 13.	USART Configuration:
@@ -191,7 +191,7 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 
 <p align="center">
   <img width=auto height=auto src="images/usart1.png">
-  <br><strong>Fig 13 : USART 1 configuration<br>  
+  <br>Fig 13 : USART 1 configuration<br>  
 </p>
 
 ## 14.	RTC configuration:
@@ -204,7 +204,7 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 
 <p align="center">
   <img width=auto height=auto src="images/rtc.png">
-  <br><strong>Fig 14 : RTC configuration<br>  
+  <br>Fig 14 : RTC configuration<br>  
 </p>
 
 ## 15.	Global Interrupt Enable Configuration: 
@@ -214,7 +214,7 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 
 <p align="center">
   <img width=auto height=auto src="images/globalinterrupt.png">
-  <br><strong>Fig 15 : Global Interrupt enable configuration <br>  
+  <br>Fig 15 : Global Interrupt enable configuration <br>  
 </p>
 
 ## 16.	Pin Module Configuration:
@@ -222,7 +222,7 @@ Configure Timer, Event system, GPIO, RTC, USART peripherals  through Microchip C
 
 <p align="center">
   <img width=auto height=auto src="images/pinmodule.png">
-  <br><strong>Fig 16 : Pin module configuration <br>  
+  <br>Fig 16 : Pin module configuration <br>  
 </p>
 
 
