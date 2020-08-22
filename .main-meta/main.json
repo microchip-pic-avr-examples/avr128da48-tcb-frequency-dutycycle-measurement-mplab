@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-tcb-frequency-dutycycle-measurement-mplab",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "displayName": "Frequency and Duty cycle measurement MPLABX example",
         "projectName": "avr128da48-tcb-frequency-dutycycle-measurement-mplab",
         "shortDescription": "This example demonstrates frequency and duty cycle measurement of a pulse signal using Timer/Counter type B (TCB), Event system and RTC (PIT) modules of AVR128DA48 microcontroller.",
