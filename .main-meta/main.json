@@ -38,28 +38,22 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "MCC",
+            "MCC",	
             [
-               "Peripherals", "TIMER"
+               "Peripherals", "TCB"
             ],
             [
-               "Peripherals", "PIT"
+               "Peripherals", "RTC"
             ],
 			[
                "Peripherals", "USART"
             ],
 			[
-               "Peripherals", "EVENT SYSTEM"
-            ],
-			[
-               "Peripherals", "INTERRUPT"
-            ],
-			[
-               "Peripherals", "GPIO"
-            ]	
+               "Peripherals", "EVSYS"
+            ]
         ],
         "peripherals": [
-            "TIMER","PIT","USART","EVENT SYSTEM", "INTERRUPT", "GPIO"
+            "TCB","RTC","USART","EVSYS"
         ],
         "keywords": [
             "Frequency",
