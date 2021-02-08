@@ -1,6 +1,6 @@
 [![MCHP](https://cldup.com/U0qhLwBijF.png)](https://www.microchip.com)
 
-# Frequency and Dutycyle measurment MPLABX example
+# Frequency and Duty cycle measurement of Pulse signal - MPLAB X project
 
 ## Introduction  
 The Timer/Counter type B (TCB) module of the AVR-DA family of devices offers a variety of features and operation modes, from periodic interrupts to 8-bit PWM mode. The various operation modes of the TCB can be used in correlation with the event system. The capabilities of the 16-bit Timer/Counter type B includes single pulse generation and input capture on event with frequency and pulse width measurement of the digital signals. 
