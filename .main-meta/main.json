@@ -7,7 +7,7 @@
         "version": "1.0.4",
         "displayName": "Frequency and Duty cycle measurement of Pulse signal - MPLAB X project",
         "projectName": "avr128da48-tcb-frequency-dutycycle-measurement-mplab",
-        "shortDescription": "This example demonstrates frequency and duty cycle measurement of a pulse signal using Timer/Counter type B (TCB), Event system and RTC (PIT) modules of AVR128DA48 microcontroller. This example could be generated with all the pin variants of AVR DA family of microcontrollers.",
+        "shortDescription": "This example demonstrates the use of peripheral TCB and Event system to measure the frequency and period of any input waveform. This example can work with all the variants of AVR DA family microcontrollers.",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=5.40.0"
