@@ -39,7 +39,6 @@
         "author": "Microchip",
         "subcategories": [
             "MCC",	
-			"Displays",
             [
                "Peripherals", "TCB"
             ],
