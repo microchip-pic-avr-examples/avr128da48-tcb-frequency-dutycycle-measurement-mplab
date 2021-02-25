@@ -1,4 +1,5 @@
-[![MCHP](https://cldup.com/U0qhLwBijF.png)](https://www.microchip.com)
+<!-- Please do not change this html logo with link -->
+<a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
 # Frequency and Duty cycle measurement of Pulse signal - MPLAB X project
 
