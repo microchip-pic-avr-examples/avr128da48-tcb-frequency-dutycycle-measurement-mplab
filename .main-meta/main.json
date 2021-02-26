@@ -56,14 +56,10 @@
             "TCB","RTC","USART","EVSYS"
         ],
         "keywords": [
-            "Frequency",
-            "Duty cycle",
-			"Pulse signal",
-			"AVR DA",
-			"AVR128DA48",
-			"Curiosity Nano Evaluation Kit",
-			"Interrupt",
-			"Waveform"
+            "Frequency Measurement",
+            "Duty Cycle",
+			"Pulse Signal",
+			"Curiosity Nano"
         ],
 		"additionalData": {
 			"longDescription": {
